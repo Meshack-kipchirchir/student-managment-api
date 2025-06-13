@@ -27,7 +27,7 @@ const students = [
     lastName: "igwe",
     email: "collo.igwe@school.com",
     age: 24,
-    grade: "c",
+    grade: "C",
     subjects: ["Geography", "Agriculture"],
     enrollmentDate: "2020-02-15",
     isActive: false
@@ -45,3 +45,5 @@ const students = [
   }
 ];
 
+// ✅ Export the array so it can be used in routes
+module.exports = students;
